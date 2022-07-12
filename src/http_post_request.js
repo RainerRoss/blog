@@ -2,7 +2,6 @@
 const http = require('http');
 const port = 8080;
 
-
 let response = {
 	success: true,
 	error:	 ''
@@ -11,7 +10,6 @@ let response = {
 function myFunction(data) {		// Put your code in this function
 	console.log('Data: ' + JSON.stringify(data));
 }
-
 
 http.createServer(function(req, res) {
 	console.log('URL: '				+ req.url);
