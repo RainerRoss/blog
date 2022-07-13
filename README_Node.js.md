@@ -8,7 +8,10 @@ export PATH
 $ yum install nodejs18
 ```
 ## Install Node.js with Access Client Solutions
-### Click on Open Source Package Management
+Select Open Source Package Management
+Connect with SSH
+Available Packages
+Select Nodejsxx and click install
 ## You need
 ```
 - Node.js version 10 or higher - actually Node.js v18 
