@@ -8,12 +8,7 @@ export PATH
 $ yum install nodejs18
 ```
 ## Install Node.js with Access Client Solutions
-```
-5250> call qp2term
-$ PATH=/QOpenSys/pkgs/bin:$PATH 
-export PATH                   
-$ yum install nodejs18
-```
+### Click on Open Source Package Management
 ## You need
 ```
 - Node.js version 10 or higher - actually Node.js v18 
