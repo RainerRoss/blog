@@ -58,4 +58,4 @@ console.log('Hello World');
 ```
 5250> qsh
 $ node /home/nodejs/helloworld.js
-
+Hello World
