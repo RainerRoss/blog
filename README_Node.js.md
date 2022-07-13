@@ -21,8 +21,9 @@ $ node -v
 v18.0.0   
 ```
 ## Install Node.js packages with npm (Node Package Manager)
-```
+
 * Search you package [NPM](https://www.npmjs.com/)
+```
 5250> qsh 
 $ node -v
 v18.0.0   
