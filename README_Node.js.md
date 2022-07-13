@@ -49,7 +49,7 @@ home@ /home
 $ mkdir -p /home/nodejs
 ```
 
-## Create a new file HelloWorld.js' in this folder and put this statement in the file
+## Create a new file HelloWorld.js in this folder and put this statement in the file
 ```
 console.log('Hello World');
 ```
