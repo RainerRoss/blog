@@ -23,7 +23,7 @@ $ yum install nodejs18
 ```
 ## Check your Node.js version
 ```
-5250> qsh
+5250> qsh 
 $ node -v
 v18.0.0   
 ```
