@@ -22,11 +22,11 @@ v18.0.0
 ```
 ## Install Node.js packages with npm (Node Package Manager)
 
-* Search you package [NPM](https://www.npmjs.com/)
+* Search your package here [NPM](https://www.npmjs.com/)
+* Install your package e.g. [idb-connector](https://www.npmjs.com/package/idb-connector)
 ```
 5250> qsh 
-$ node -v
-v18.0.0   
+$ npm i idb-connector
 ```
 
 ## Manual Install
