@@ -14,19 +14,19 @@ $ yum install nodejs18
 * Available Packages
 * Select Nodejsxx and click install
 
-## You need
-```
-- Node.js version 10 or higher - actually Node.js v18 
-  Install Node.js with Access Client Solutions Open Source Package Management or with "yum install nodejs18"
-- Install Twilio Node.js API: npm install twilio
-- The Twilio credentials - accountSid, authToken - from www.twilio.com/console
-```
 ## Check your Node.js version
 ```
 5250> qsh 
 $ node -v
 v18.0.0   
 ```
+## Install Node.js packages with npm (Node Package Manager) - you find all the packages [here](https://www.npmjs.com/)
+```
+5250> qsh 
+$ node -v
+v18.0.0   
+```
+
 ## Manual Install
 ```
 5250> qsh
