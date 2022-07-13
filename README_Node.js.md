@@ -1,19 +1,18 @@
 # Work with Node.js on IBM i
 
 ## Install Node.js with YUM
-
+```
 5250> call qp2term
 $ PATH=/QOpenSys/pkgs/bin:$PATH 
 export PATH                   
 $ yum install nodejs18
-
+```
 ## Install Node.js with Access Client Solutions
-
+```
 5250> call qp2term
 $ PATH=/QOpenSys/pkgs/bin:$PATH 
 export PATH                   
 $ yum install nodejs18
-
 ```
 ## You need
 ```
