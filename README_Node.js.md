@@ -20,6 +20,7 @@ $ yum install nodejs18
 $ node -v
 v18.0.0   
 ```
+
 ## Install Node.js packages with npm (Node Package Manager)
 
 * Search your package here [NPM](https://www.npmjs.com/)
@@ -27,6 +28,19 @@ v18.0.0
 ```
 5250> qsh 
 $ npm i idb-connector
+```
+
+## List the Node.js packages with npm (Node Package Manager)
+```
+5250> qsh 
+$ npm ls
+home@ /home                     
++-- axios@0.27.2                
++-- idb-connector@1.2.16        
++-- itoolkit@1.0.0              
++-- twilio@3.78.0               
+`-- xml2js@0.4.23               
+
 ```
 
 ## Create a folder for the Node.js programs
