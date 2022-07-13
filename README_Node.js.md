@@ -1,5 +1,11 @@
 # Work with Node.js on IBM i
 
+## Install Node.js with Access Client Solutions
+* Select Open Source Package Management
+* Connect with SSH
+* Available Packages
+* Select Nodejsxx and click install
+
 ## Install Node.js with YUM
 ```
 5250> call qp2term
@@ -7,12 +13,6 @@ $ PATH=/QOpenSys/pkgs/bin:$PATH
 export PATH                   
 $ yum install nodejs18
 ```
-
-## Install Node.js with Access Client Solutions
-* Select Open Source Package Management
-* Connect with SSH
-* Available Packages
-* Select Nodejsxx and click install
 
 ## Check your Node.js version
 ```
@@ -29,12 +29,19 @@ v18.0.0
 $ npm i idb-connector
 ```
 
-## Manual Install
+## Create a folder for the Node.js programs
 ```
 5250> qsh
-$ mkdir -p /home/node  (for the sendSMS.js)
+$ mkdir -p /home/nodejs
 ```
-## Start the Node.js program on your IBM i
+
+## Create a new file HelloWorld.js' in this folder and put this statement in the file
+```
+console.log('Hello World');
+```
+
+## Run the HelloWorld.js program
 ```
 5250> qsh
-$ node /home/node/sendSMS.js
+$ node /home/nodejs/helloworld.js
+
